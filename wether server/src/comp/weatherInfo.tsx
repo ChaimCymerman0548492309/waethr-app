@@ -10,7 +10,7 @@ export default function weatherInfo(props: any): any {
       {info.weather && (
         
         <div>
-          {/* <img src=`${info.}` alt="a" /> */}
+          <img src=`${info.}` alt="a" />
           <h3>Condition : {info.weather[0].main}</h3>
           <h3>Temperature : {info.main.temp} c</h3>
           <h3>Wind : {info.wind.speed} kmh </h3>
